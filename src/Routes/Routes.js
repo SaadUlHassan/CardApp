@@ -12,7 +12,6 @@ const AppRoutes = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Cards/>} />
-        {/* <Route exact path="/cards" element={<Cards/>} /> */}
         <Route path="cards/:id" element={<Card/>} />
         <Route path="/cards/new" element={<CreateCard/>} />
         <Route element={NotFound} />
